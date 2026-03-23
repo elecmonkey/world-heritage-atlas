@@ -1,0 +1,42 @@
+[
+  {
+    "region": "Europe-North America",
+    "total": 506,
+    "countryCount": 67,
+    "culture": 433,
+    "nature": 61,
+    "mixed": 12
+  },
+  {
+    "region": "Asia-Pacific",
+    "total": 260,
+    "countryCount": 36,
+    "culture": 188,
+    "nature": 62,
+    "mixed": 10
+  },
+  {
+    "region": "Latin America-Caribbean",
+    "total": 140,
+    "countryCount": 29,
+    "culture": 96,
+    "nature": 37,
+    "mixed": 7
+  },
+  {
+    "region": "Africa",
+    "total": 92,
+    "countryCount": 35,
+    "culture": 52,
+    "nature": 36,
+    "mixed": 4
+  },
+  {
+    "region": "Arab States",
+    "total": 83,
+    "countryCount": 18,
+    "culture": 75,
+    "nature": 5,
+    "mixed": 3
+  }
+]

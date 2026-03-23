@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@500;600;700&display=swap');
+@import 'leaflet/dist/leaflet.css';
+@import "tailwindcss";
+
+:root {
+  --bg: #0b0f1a;
+  --panel: #111827;
+  --panel-2: #161f2f;
+  --line: #334155;
+  --text-main: #e5e7eb;
+  --text-muted: #94a3b8;
+  --primary: #1e3a8a;
+  --accent: #c8a96a;
+  --highlight: #38bdf8;
+  --culture: #f59e0b;
+  --nature: #10b981;
+  --mixed: #8b5cf6;
+  font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  color: var(--text-main);
+  background: var(--bg);
+}
+
+@theme {
+  --font-display: 'Noto Serif SC', 'Cormorant Garamond', serif;
+  --font-body: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background:
+    radial-gradient(circle at top left, rgba(200, 169, 106, 0.14), transparent 28%),
+    radial-gradient(circle at bottom right, rgba(30, 58, 138, 0.12), transparent 26%),
+    var(--bg);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    radial-gradient(circle at top, rgba(200, 169, 106, 0.08), transparent 30%),
+    var(--bg);
+  background-size:
+    36px 36px,
+    36px 36px,
+    auto,
+    auto;
+  color: var(--text-main);
+  font-family: var(--font-body);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.leaflet-container {
+  background: #0a0f16;
+  font-family: var(--font-body);
+  position: relative;
+  z-index: 0;
+}
+
+.leaflet-tooltip {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 6px;
+  background: rgba(11, 15, 26, 0.94);
+  color: #e5e7eb;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.leaflet-pane,
+.leaflet-top,
+.leaflet-bottom {
+  z-index: 100;
+}
+
+.heritage-marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heritage-marker span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 9999px;
+  box-shadow: 0 0 0 1px rgba(11, 15, 26, 0.8);
+}
+
+.heritage-marker--culture span {
+  background: #f59e0b;
+}
+
+.heritage-marker--nature span {
+  background: #10b981;
+}
+
+.heritage-marker--mixed span {
+  background: #8b5cf6;
+}
+
+.heritage-marker.is-dimmed span {
+  background: #334155;
+  opacity: 0.4;
+}
+
+.heritage-marker.is-selected span {
+  border-color: #f3e7c7;
+  box-shadow:
+    0 0 0 2px rgba(243, 231, 199, 0.2),
+    0 0 0 1px rgba(11, 15, 26, 0.8);
+}
+
+.heritage-cluster {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  box-shadow:
+    0 0 0 1px rgba(11, 15, 26, 0.92),
+    0 10px 24px rgba(0, 0, 0, 0.22);
+}
+
+.heritage-cluster span {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(255, 255, 255, 0.16);
+  border-radius: 9999px;
+  color: #f8fafc;
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.heritage-cluster--culture span {
+  background: rgba(245, 158, 11, 0.88);
+}
+
+.heritage-cluster--nature span {
+  background: rgba(16, 185, 129, 0.88);
+}
+
+.heritage-cluster--mixed span {
+  background: rgba(139, 92, 246, 0.88);
+}

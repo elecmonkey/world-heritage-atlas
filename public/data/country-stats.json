@@ -1,0 +1,1667 @@
+[
+  {
+    "country": "中国",
+    "countryCode": "CN",
+    "total": 54,
+    "culture": 37,
+    "nature": 13,
+    "mixed": 4,
+    "firstYear": 1987
+  },
+  {
+    "country": "意大利",
+    "countryCode": "IT",
+    "total": 48,
+    "culture": 46,
+    "nature": 2,
+    "mixed": 0,
+    "firstYear": 1979
+  },
+  {
+    "country": "西班牙",
+    "countryCode": "ES",
+    "total": 42,
+    "culture": 38,
+    "nature": 3,
+    "mixed": 1,
+    "firstYear": 1984
+  },
+  {
+    "country": "法国",
+    "countryCode": "FR",
+    "total": 39,
+    "culture": 33,
+    "nature": 5,
+    "mixed": 1,
+    "firstYear": 1979
+  },
+  {
+    "country": "德国",
+    "countryCode": "DE",
+    "total": 38,
+    "culture": 37,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1978
+  },
+  {
+    "country": "印度",
+    "countryCode": "IN",
+    "total": 35,
+    "culture": 30,
+    "nature": 5,
+    "mixed": 0,
+    "firstYear": 1983
+  },
+  {
+    "country": "墨西哥",
+    "countryCode": "MX",
+    "total": 32,
+    "culture": 27,
+    "nature": 4,
+    "mixed": 1,
+    "firstYear": 1987
+  },
+  {
+    "country": "大不列颠及北爱尔兰联合王国",
+    "countryCode": "GB",
+    "total": 29,
+    "culture": 23,
+    "nature": 5,
+    "mixed": 1,
+    "firstYear": 1986
+  },
+  {
+    "country": "俄罗斯联邦",
+    "countryCode": "RU",
+    "total": 25,
+    "culture": 18,
+    "nature": 7,
+    "mixed": 0,
+    "firstYear": 1990
+  },
+  {
+    "country": "美利坚合众国",
+    "countryCode": "US",
+    "total": 22,
+    "culture": 11,
+    "nature": 10,
+    "mixed": 1,
+    "firstYear": 1978
+  },
+  {
+    "country": "日本",
+    "countryCode": "JP",
+    "total": 22,
+    "culture": 17,
+    "nature": 5,
+    "mixed": 0,
+    "firstYear": 1993
+  },
+  {
+    "country": "伊朗（伊斯兰共和国）",
+    "countryCode": "IR",
+    "total": 21,
+    "culture": 20,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1979
+  },
+  {
+    "country": "巴西",
+    "countryCode": "BR",
+    "total": 21,
+    "culture": 11,
+    "nature": 9,
+    "mixed": 1,
+    "firstYear": 1980
+  },
+  {
+    "country": "澳大利亚",
+    "countryCode": "AU",
+    "total": 20,
+    "culture": 5,
+    "nature": 11,
+    "mixed": 4,
+    "firstYear": 1981
+  },
+  {
+    "country": "希腊",
+    "countryCode": "GR",
+    "total": 19,
+    "culture": 17,
+    "nature": 0,
+    "mixed": 2,
+    "firstYear": 1986
+  },
+  {
+    "country": "加拿大",
+    "countryCode": "CA",
+    "total": 17,
+    "culture": 8,
+    "nature": 8,
+    "mixed": 1,
+    "firstYear": 1978
+  },
+  {
+    "country": "土耳其",
+    "countryCode": "TR",
+    "total": 17,
+    "culture": 15,
+    "nature": 0,
+    "mixed": 2,
+    "firstYear": 1985
+  },
+  {
+    "country": "大韩民国",
+    "countryCode": "KR",
+    "total": 15,
+    "culture": 13,
+    "nature": 2,
+    "mixed": 0,
+    "firstYear": 1995
+  },
+  {
+    "country": "葡萄牙",
+    "countryCode": "PT",
+    "total": 14,
+    "culture": 13,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1983
+  },
+  {
+    "country": "捷克",
+    "countryCode": "CZ",
+    "total": 14,
+    "culture": 14,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1992
+  },
+  {
+    "country": "埃塞俄比亚",
+    "countryCode": "ET",
+    "total": 12,
+    "culture": 10,
+    "nature": 2,
+    "mixed": 0,
+    "firstYear": 1978
+  },
+  {
+    "country": "瑞典",
+    "countryCode": "SE",
+    "total": 12,
+    "culture": 11,
+    "nature": 0,
+    "mixed": 1,
+    "firstYear": 1991
+  },
+  {
+    "country": "波兰",
+    "countryCode": "PL",
+    "total": 11,
+    "culture": 11,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1978
+  },
+  {
+    "country": "秘鲁",
+    "countryCode": "PE",
+    "total": 11,
+    "culture": 7,
+    "nature": 2,
+    "mixed": 2,
+    "firstYear": 1983
+  },
+  {
+    "country": "罗马尼亚",
+    "countryCode": "RO",
+    "total": 10,
+    "culture": 9,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1991
+  },
+  {
+    "country": "保加利亚",
+    "countryCode": "BG",
+    "total": 9,
+    "culture": 7,
+    "nature": 2,
+    "mixed": 0,
+    "firstYear": 1979
+  },
+  {
+    "country": "印度尼西亚",
+    "countryCode": "ID",
+    "total": 9,
+    "culture": 5,
+    "nature": 4,
+    "mixed": 0,
+    "firstYear": 1991
+  },
+  {
+    "country": "荷兰 （王國的）",
+    "countryCode": "NL",
+    "total": 9,
+    "culture": 9,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1995
+  },
+  {
+    "country": "南非",
+    "countryCode": "ZA",
+    "total": 9,
+    "culture": 6,
+    "nature": 3,
+    "mixed": 0,
+    "firstYear": 1999
+  },
+  {
+    "country": "突尼斯",
+    "countryCode": "TN",
+    "total": 8,
+    "culture": 7,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1979
+  },
+  {
+    "country": "阿根廷",
+    "countryCode": "AR",
+    "total": 8,
+    "culture": 4,
+    "nature": 4,
+    "mixed": 0,
+    "firstYear": 1981
+  },
+  {
+    "country": "摩洛哥",
+    "countryCode": "MA",
+    "total": 8,
+    "culture": 8,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1981
+  },
+  {
+    "country": "古巴",
+    "countryCode": "CU",
+    "total": 8,
+    "culture": 6,
+    "nature": 2,
+    "mixed": 0,
+    "firstYear": 1982
+  },
+  {
+    "country": "斯里兰卡",
+    "countryCode": "LK",
+    "total": 8,
+    "culture": 6,
+    "nature": 2,
+    "mixed": 0,
+    "firstYear": 1982
+  },
+  {
+    "country": "哥伦比亚",
+    "countryCode": "CO",
+    "total": 8,
+    "culture": 5,
+    "nature": 2,
+    "mixed": 1,
+    "firstYear": 1984
+  },
+  {
+    "country": "泰国",
+    "countryCode": "TH",
+    "total": 8,
+    "culture": 5,
+    "nature": 3,
+    "mixed": 0,
+    "firstYear": 1991
+  },
+  {
+    "country": "丹麦",
+    "countryCode": "DK",
+    "total": 8,
+    "culture": 6,
+    "nature": 2,
+    "mixed": 0,
+    "firstYear": 1994
+  },
+  {
+    "country": "比利时",
+    "countryCode": "BE",
+    "total": 8,
+    "culture": 8,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1998
+  },
+  {
+    "country": "挪威",
+    "countryCode": "NO",
+    "total": 7,
+    "culture": 6,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1979
+  },
+  {
+    "country": "埃及",
+    "countryCode": "EG",
+    "total": 7,
+    "culture": 6,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1979
+  },
+  {
+    "country": "坦桑尼亚联合共和国",
+    "countryCode": "TZ",
+    "total": 7,
+    "culture": 3,
+    "nature": 3,
+    "mixed": 1,
+    "firstYear": 1979
+  },
+  {
+    "country": "阿尔及利亚",
+    "countryCode": "DZ",
+    "total": 7,
+    "culture": 6,
+    "nature": 0,
+    "mixed": 1,
+    "firstYear": 1980
+  },
+  {
+    "country": "越南",
+    "countryCode": "VN",
+    "total": 7,
+    "culture": 6,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1993
+  },
+  {
+    "country": "奥地利",
+    "countryCode": "AT",
+    "total": 7,
+    "culture": 7,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1996
+  },
+  {
+    "country": "以色列",
+    "countryCode": "IL",
+    "total": 7,
+    "culture": 7,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2001
+  },
+  {
+    "country": "阿拉伯叙利亚共和国",
+    "countryCode": "SY",
+    "total": 6,
+    "culture": 6,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1979
+  },
+  {
+    "country": "克罗地亚",
+    "countryCode": "HR",
+    "total": 6,
+    "culture": 5,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1979
+  },
+  {
+    "country": "巴基斯坦",
+    "countryCode": "PK",
+    "total": 6,
+    "culture": 6,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1980
+  },
+  {
+    "country": "瑞士",
+    "countryCode": "CH",
+    "total": 6,
+    "culture": 5,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1983
+  },
+  {
+    "country": "约旦",
+    "countryCode": "JO",
+    "total": 6,
+    "culture": 5,
+    "nature": 0,
+    "mixed": 1,
+    "firstYear": 1985
+  },
+  {
+    "country": "匈牙利",
+    "countryCode": "HU",
+    "total": 6,
+    "culture": 6,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1987
+  },
+  {
+    "country": "玻利维亚（多民族国）",
+    "countryCode": "BO",
+    "total": 6,
+    "culture": 5,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1987
+  },
+  {
+    "country": "智利",
+    "countryCode": "CL",
+    "total": 6,
+    "culture": 6,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1995
+  },
+  {
+    "country": "刚果民主共和国",
+    "countryCode": "CD",
+    "total": 5,
+    "culture": 0,
+    "nature": 5,
+    "mixed": 0,
+    "firstYear": 1979
+  },
+  {
+    "country": "利比亚",
+    "countryCode": "LY",
+    "total": 5,
+    "culture": 5,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1982
+  },
+  {
+    "country": "黎巴嫩",
+    "countryCode": "LB",
+    "total": 5,
+    "culture": 5,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1984
+  },
+  {
+    "country": "伊拉克",
+    "countryCode": "IQ",
+    "total": 5,
+    "culture": 4,
+    "nature": 0,
+    "mixed": 1,
+    "firstYear": 1985
+  },
+  {
+    "country": "阿曼",
+    "countryCode": "OM",
+    "total": 5,
+    "culture": 5,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1987
+  },
+  {
+    "country": "芬兰",
+    "countryCode": "FI",
+    "total": 5,
+    "culture": 5,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1991
+  },
+  {
+    "country": "肯尼亚",
+    "countryCode": "KE",
+    "total": 5,
+    "culture": 4,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1997
+  },
+  {
+    "country": "沙特阿拉伯",
+    "countryCode": "SA",
+    "total": 5,
+    "culture": 4,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 2010
+  },
+  {
+    "country": "厄瓜多尔",
+    "countryCode": "EC",
+    "total": 4,
+    "culture": 2,
+    "nature": 2,
+    "mixed": 0,
+    "firstYear": 1978
+  },
+  {
+    "country": "塞内加尔",
+    "countryCode": "SN",
+    "total": 4,
+    "culture": 2,
+    "nature": 2,
+    "mixed": 0,
+    "firstYear": 1978
+  },
+  {
+    "country": "尼泊尔",
+    "countryCode": "NP",
+    "total": 4,
+    "culture": 2,
+    "nature": 2,
+    "mixed": 0,
+    "firstYear": 1979
+  },
+  {
+    "country": "危地马拉",
+    "countryCode": "GT",
+    "total": 4,
+    "culture": 3,
+    "nature": 0,
+    "mixed": 1,
+    "firstYear": 1979
+  },
+  {
+    "country": "塞尔维亚",
+    "countryCode": "RS",
+    "total": 4,
+    "culture": 4,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1979
+  },
+  {
+    "country": "巴拿马",
+    "countryCode": "PA",
+    "total": 4,
+    "culture": 2,
+    "nature": 2,
+    "mixed": 0,
+    "firstYear": 1980
+  },
+  {
+    "country": "津巴布韦",
+    "countryCode": "ZW",
+    "total": 4,
+    "culture": 3,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1984
+  },
+  {
+    "country": "马里",
+    "countryCode": "ML",
+    "total": 4,
+    "culture": 3,
+    "nature": 0,
+    "mixed": 1,
+    "firstYear": 1988
+  },
+  {
+    "country": "乌兹别克斯坦",
+    "countryCode": "UZ",
+    "total": 4,
+    "culture": 4,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1990
+  },
+  {
+    "country": "菲律宾",
+    "countryCode": "PH",
+    "total": 4,
+    "culture": 3,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1993
+  },
+  {
+    "country": "阿塞拜疆",
+    "countryCode": "AZ",
+    "total": 4,
+    "culture": 4,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2000
+  },
+  {
+    "country": "马来西亚",
+    "countryCode": "MY",
+    "total": 4,
+    "culture": 2,
+    "nature": 2,
+    "mixed": 0,
+    "firstYear": 2000
+  },
+  {
+    "country": "蒙古",
+    "countryCode": "MN",
+    "total": 4,
+    "culture": 4,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2004
+  },
+  {
+    "country": "马耳他",
+    "countryCode": "MT",
+    "total": 3,
+    "culture": 3,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1980
+  },
+  {
+    "country": "塞浦路斯",
+    "countryCode": "CY",
+    "total": 3,
+    "culture": 3,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1980
+  },
+  {
+    "country": "也门",
+    "countryCode": "YE",
+    "total": 3,
+    "culture": 3,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1982
+  },
+  {
+    "country": "科特迪瓦",
+    "countryCode": "CI",
+    "total": 3,
+    "culture": 1,
+    "nature": 2,
+    "mixed": 0,
+    "firstYear": 1982
+  },
+  {
+    "country": "马拉维",
+    "countryCode": "MW",
+    "total": 3,
+    "culture": 2,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1984
+  },
+  {
+    "country": "孟加拉国",
+    "countryCode": "BD",
+    "total": 3,
+    "culture": 2,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1985
+  },
+  {
+    "country": "乌克兰",
+    "countryCode": "UA",
+    "total": 3,
+    "culture": 3,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1990
+  },
+  {
+    "country": "马达加斯加",
+    "countryCode": "MG",
+    "total": 3,
+    "culture": 1,
+    "nature": 2,
+    "mixed": 0,
+    "firstYear": 1990
+  },
+  {
+    "country": "新西兰",
+    "countryCode": "NZ",
+    "total": 3,
+    "culture": 0,
+    "nature": 2,
+    "mixed": 1,
+    "firstYear": 1990
+  },
+  {
+    "country": "柬埔寨",
+    "countryCode": "KH",
+    "total": 3,
+    "culture": 3,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1992
+  },
+  {
+    "country": "斯洛伐克",
+    "countryCode": "SK",
+    "total": 3,
+    "culture": 3,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1993
+  },
+  {
+    "country": "委内瑞拉（玻利瓦尔共和国）",
+    "countryCode": "VE",
+    "total": 3,
+    "culture": 2,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1993
+  },
+  {
+    "country": "格鲁吉亚",
+    "countryCode": "GE",
+    "total": 3,
+    "culture": 2,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1994
+  },
+  {
+    "country": "乌干达",
+    "countryCode": "UG",
+    "total": 3,
+    "culture": 1,
+    "nature": 2,
+    "mixed": 0,
+    "firstYear": 1994
+  },
+  {
+    "country": "立陶宛",
+    "countryCode": "LT",
+    "total": 3,
+    "culture": 3,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1994
+  },
+  {
+    "country": "老挝人民民主共和国",
+    "countryCode": "LA",
+    "total": 3,
+    "culture": 3,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1995
+  },
+  {
+    "country": "乌拉圭",
+    "countryCode": "UY",
+    "total": 3,
+    "culture": 3,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1995
+  },
+  {
+    "country": "亚美尼亚",
+    "countryCode": "AM",
+    "total": 3,
+    "culture": 3,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1996
+  },
+  {
+    "country": "土库曼斯坦",
+    "countryCode": "TM",
+    "total": 3,
+    "culture": 3,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1999
+  },
+  {
+    "country": "苏里南",
+    "countryCode": "SR",
+    "total": 3,
+    "culture": 2,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 2000
+  },
+  {
+    "country": "苏丹",
+    "countryCode": "SD",
+    "total": 3,
+    "culture": 2,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 2003
+  },
+  {
+    "country": "波斯尼亚和黑塞哥维那",
+    "countryCode": "BA",
+    "total": 3,
+    "culture": 2,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 2005
+  },
+  {
+    "country": "塔吉克斯坦",
+    "countryCode": "TJ",
+    "total": 3,
+    "culture": 2,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 2010
+  },
+  {
+    "country": "巴勒斯坦國",
+    "countryCode": "PS",
+    "total": 3,
+    "culture": 3,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2012
+  },
+  {
+    "country": "加拿大 / 美利坚合众国",
+    "countryCode": "CA",
+    "total": 2,
+    "culture": 0,
+    "nature": 2,
+    "mixed": 0,
+    "firstYear": 1979
+  },
+  {
+    "country": "加纳",
+    "countryCode": "GH",
+    "total": 2,
+    "culture": 2,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1979
+  },
+  {
+    "country": "黑山",
+    "countryCode": "ME",
+    "total": 2,
+    "culture": 1,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1979
+  },
+  {
+    "country": "洪都拉斯",
+    "countryCode": "HN",
+    "total": 2,
+    "culture": 1,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1980
+  },
+  {
+    "country": "塞舌尔",
+    "countryCode": "SC",
+    "total": 2,
+    "culture": 0,
+    "nature": 2,
+    "mixed": 0,
+    "firstYear": 1982
+  },
+  {
+    "country": "斯洛文尼亚",
+    "countryCode": "SI",
+    "total": 2,
+    "culture": 1,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1986
+  },
+  {
+    "country": "喀麦隆",
+    "countryCode": "CM",
+    "total": 2,
+    "culture": 1,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1987
+  },
+  {
+    "country": "毛里塔尼亚",
+    "countryCode": "MR",
+    "total": 2,
+    "culture": 1,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1989
+  },
+  {
+    "country": "爱尔兰",
+    "countryCode": "IE",
+    "total": 2,
+    "culture": 2,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1993
+  },
+  {
+    "country": "哥斯达黎加",
+    "countryCode": "CR",
+    "total": 2,
+    "culture": 0,
+    "nature": 2,
+    "mixed": 0,
+    "firstYear": 1997
+  },
+  {
+    "country": "拉脱维亚",
+    "countryCode": "LV",
+    "total": 2,
+    "culture": 2,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1997
+  },
+  {
+    "country": "尼日利亚",
+    "countryCode": "NG",
+    "total": 2,
+    "culture": 2,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1999
+  },
+  {
+    "country": "比利时 / 法国",
+    "countryCode": "BE",
+    "total": 2,
+    "culture": 2,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1999
+  },
+  {
+    "country": "白俄罗斯",
+    "countryCode": "BY",
+    "total": 2,
+    "culture": 2,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2000
+  },
+  {
+    "country": "尼加拉瓜",
+    "countryCode": "NI",
+    "total": 2,
+    "culture": 2,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2000
+  },
+  {
+    "country": "阿富汗",
+    "countryCode": "AF",
+    "total": 2,
+    "culture": 2,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2002
+  },
+  {
+    "country": "哈萨克斯坦",
+    "countryCode": "KZ",
+    "total": 2,
+    "culture": 2,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2003
+  },
+  {
+    "country": "冰岛",
+    "countryCode": "IS",
+    "total": 2,
+    "culture": 1,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 2004
+  },
+  {
+    "country": "朝鲜民主主义人民共和国",
+    "countryCode": "KP",
+    "total": 2,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 1,
+    "firstYear": 2004
+  },
+  {
+    "country": "巴林",
+    "countryCode": "BH",
+    "total": 2,
+    "culture": 2,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2005
+  },
+  {
+    "country": "加蓬",
+    "countryCode": "GA",
+    "total": 2,
+    "culture": 0,
+    "nature": 1,
+    "mixed": 1,
+    "firstYear": 2007
+  },
+  {
+    "country": "阿拉伯联合酋长国",
+    "countryCode": "AE",
+    "total": 2,
+    "culture": 2,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2011
+  },
+  {
+    "country": "牙买加",
+    "countryCode": "JM",
+    "total": 2,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 1,
+    "firstYear": 2015
+  },
+  {
+    "country": "布基纳法索",
+    "countryCode": "BF",
+    "total": 2,
+    "culture": 2,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2019
+  },
+  {
+    "country": "卢旺达",
+    "countryCode": "RW",
+    "total": 2,
+    "culture": 1,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 2023
+  },
+  {
+    "country": "北马其顿 / 阿尔巴尼亚",
+    "countryCode": "AL",
+    "total": 1,
+    "culture": 0,
+    "nature": 0,
+    "mixed": 1,
+    "firstYear": 1979
+  },
+  {
+    "country": "意大利 / 教廷",
+    "countryCode": "IT",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1980
+  },
+  {
+    "country": "几内亚 / 科特迪瓦",
+    "countryCode": "CI",
+    "total": 1,
+    "culture": 0,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1981
+  },
+  {
+    "country": "耶路撒冷古城及其城墙(由约旦申报)",
+    "countryCode": "",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1981
+  },
+  {
+    "country": "海地",
+    "countryCode": "HT",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1982
+  },
+  {
+    "country": "哥斯达黎加 / 巴拿马",
+    "countryCode": "CR",
+    "total": 1,
+    "culture": 0,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1983
+  },
+  {
+    "country": "巴西 / 阿根廷",
+    "countryCode": "AR",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1983
+  },
+  {
+    "country": "教廷",
+    "countryCode": "VA",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1984
+  },
+  {
+    "country": "贝宁",
+    "countryCode": "BJ",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1985
+  },
+  {
+    "country": "中非共和国",
+    "countryCode": "CF",
+    "total": 1,
+    "culture": 0,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1988
+  },
+  {
+    "country": "津巴布韦 / 赞比亚",
+    "countryCode": "ZM",
+    "total": 1,
+    "culture": 0,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1989
+  },
+  {
+    "country": "多米尼加",
+    "countryCode": "DO",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1990
+  },
+  {
+    "country": "莫桑比克",
+    "countryCode": "MZ",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1991
+  },
+  {
+    "country": "尼日尔",
+    "countryCode": "NE",
+    "total": 1,
+    "culture": 0,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1991
+  },
+  {
+    "country": "阿尔巴尼亚",
+    "countryCode": "AL",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1992
+  },
+  {
+    "country": "巴拉圭",
+    "countryCode": "PY",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1993
+  },
+  {
+    "country": "萨尔瓦多",
+    "countryCode": "SV",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1993
+  },
+  {
+    "country": "卢森堡",
+    "countryCode": "LU",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1994
+  },
+  {
+    "country": "匈牙利 / 斯洛伐克",
+    "countryCode": "HU",
+    "total": 1,
+    "culture": 0,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1995
+  },
+  {
+    "country": "伯利兹",
+    "countryCode": "BZ",
+    "total": 1,
+    "culture": 0,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1996
+  },
+  {
+    "country": "爱沙尼亚",
+    "countryCode": "EE",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1997
+  },
+  {
+    "country": "法国 / 西班牙",
+    "countryCode": "ES",
+    "total": 1,
+    "culture": 0,
+    "nature": 0,
+    "mixed": 1,
+    "firstYear": 1997
+  },
+  {
+    "country": "多米尼克",
+    "countryCode": "DM",
+    "total": 1,
+    "culture": 0,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1997
+  },
+  {
+    "country": "所罗门群岛",
+    "countryCode": "SB",
+    "total": 1,
+    "culture": 0,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 1998
+  },
+  {
+    "country": "葡萄牙 / 西班牙",
+    "countryCode": "ES",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1998
+  },
+  {
+    "country": "圣基茨和尼维斯",
+    "countryCode": "KN",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 1999
+  },
+  {
+    "country": "俄罗斯联邦 / 立陶宛",
+    "countryCode": "LT",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2000
+  },
+  {
+    "country": "瑞典 / 芬兰",
+    "countryCode": "FI",
+    "total": 1,
+    "culture": 0,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 2000
+  },
+  {
+    "country": "博茨瓦纳",
+    "countryCode": "BW",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2001
+  },
+  {
+    "country": "匈牙利 / 奥地利",
+    "countryCode": "AT",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2001
+  },
+  {
+    "country": "俄罗斯联邦 / 蒙古",
+    "countryCode": "MN",
+    "total": 1,
+    "culture": 0,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 2003
+  },
+  {
+    "country": "意大利 / 瑞士",
+    "countryCode": "CH",
+    "total": 1,
+    "culture": 0,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 2003
+  },
+  {
+    "country": "冈比亚",
+    "countryCode": "GM",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2003
+  },
+  {
+    "country": "多哥 / 贝宁",
+    "countryCode": "BJ",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2004
+  },
+  {
+    "country": "圣卢西亚",
+    "countryCode": "LC",
+    "total": 1,
+    "culture": 0,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 2004
+  },
+  {
+    "country": "德国 / 波兰",
+    "countryCode": "DE",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2004
+  },
+  {
+    "country": "安道尔",
+    "countryCode": "AD",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2004
+  },
+  {
+    "country": "乌克兰 / 俄罗斯联邦 / 拉脱维亚 / 挪威 / 摩尔多瓦共和国 / 爱沙尼亚 / 瑞典 / 白俄罗斯 / 立陶宛 / 芬兰",
+    "countryCode": "BY",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2005
+  },
+  {
+    "country": "冈比亚 / 塞内加尔",
+    "countryCode": "GM",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2006
+  },
+  {
+    "country": "毛里求斯",
+    "countryCode": "MU",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2006
+  },
+  {
+    "country": "乌克兰 / 保加利亚 / 克罗地亚 / 北马其顿 / 奥地利 / 德国 / 意大利 / 捷克 / 斯洛伐克 / 斯洛文尼亚 / 比利时 / 法国 / 波兰 / 波斯尼亚和黑塞哥维那 / 瑞士 / 罗马尼亚 / 西班牙 / 阿尔巴尼亚",
+    "countryCode": "AL",
+    "total": 1,
+    "culture": 0,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 2007
+  },
+  {
+    "country": "纳米比亚",
+    "countryCode": "NA",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2007
+  },
+  {
+    "country": "马绍尔群岛",
+    "countryCode": "MH",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2010
+  },
+  {
+    "country": "基里巴斯",
+    "countryCode": "KI",
+    "total": 1,
+    "culture": 0,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 2010
+  },
+  {
+    "country": "巴巴多斯",
+    "countryCode": "BB",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2011
+  },
+  {
+    "country": "奥地利 / 德国 / 意大利 / 斯洛文尼亚 / 法国 / 瑞士",
+    "countryCode": "AT",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2011
+  },
+  {
+    "country": "丹麦 / 大不列颠及北爱尔兰联合王国 / 德国 / 美利坚合众国",
+    "countryCode": "DE",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2015
+  },
+  {
+    "country": "新加坡",
+    "countryCode": "SG",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2015
+  },
+  {
+    "country": "乍得",
+    "countryCode": "TD",
+    "total": 1,
+    "culture": 0,
+    "nature": 0,
+    "mixed": 1,
+    "firstYear": 2016
+  },
+  {
+    "country": "密克罗尼西亚（联邦）",
+    "countryCode": "FM",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2016
+  },
+  {
+    "country": "乌兹别克斯坦 / 吉尔吉斯斯坦 / 哈萨克斯坦",
+    "countryCode": "KG",
+    "total": 1,
+    "culture": 0,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 2016
+  },
+  {
+    "country": "德国 / 捷克",
+    "countryCode": "CZ",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2019
+  },
+  {
+    "country": "伊朗（伊斯兰共和国） / 阿塞拜疆",
+    "countryCode": "AZ",
+    "total": 1,
+    "culture": 0,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 2019
+  },
+  {
+    "country": "缅甸",
+    "countryCode": "MM",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2019
+  },
+  {
+    "country": "比利时 / 荷兰 （王國的）",
+    "countryCode": "BE",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2021
+  },
+  {
+    "country": "大不列颠及北爱尔兰联合王国 / 奥地利 / 德国 / 意大利 / 捷克 / 比利时 / 法国",
+    "countryCode": "AT",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2021
+  },
+  {
+    "country": "德国 / 荷兰 （王國的）",
+    "countryCode": "DE",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2021
+  },
+  {
+    "country": "乌兹别克斯坦 / 土库曼斯坦 / 塔吉克斯坦",
+    "countryCode": "TJ",
+    "total": 1,
+    "culture": 1,
+    "nature": 0,
+    "mixed": 0,
+    "firstYear": 2023
+  },
+  {
+    "country": "乌兹别克斯坦 / 哈萨克斯坦 / 土库曼斯坦",
+    "countryCode": "KZ",
+    "total": 1,
+    "culture": 0,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 2023
+  },
+  {
+    "country": "刚果",
+    "countryCode": "CG",
+    "total": 1,
+    "culture": 0,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 2023
+  },
+  {
+    "country": "塞拉利昂",
+    "countryCode": "SL",
+    "total": 1,
+    "culture": 0,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 2025
+  },
+  {
+    "country": "几内亚比绍",
+    "countryCode": "GW",
+    "total": 1,
+    "culture": 0,
+    "nature": 1,
+    "mixed": 0,
+    "firstYear": 2025
+  }
+]
