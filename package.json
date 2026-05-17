@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "prepare": "pnpx skills experimental_install",
     "dev": "vite",
     "build": "vite build",
     "type-check": "tsc -b",
