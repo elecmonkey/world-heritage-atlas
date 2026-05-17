@@ -1,0 +1,8 @@
+.slidev-layout.full {
+  padding: 0 !important;
+}
+
+.slidev-layout.full > * {
+  width: 100%;
+  height: 100%;
+}
