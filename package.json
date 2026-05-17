@@ -9,7 +9,8 @@
     "build": "vite build",
     "type-check": "tsc -b",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "slide": "pnpm --dir slide dev"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",
