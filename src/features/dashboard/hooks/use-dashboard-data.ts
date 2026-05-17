@@ -45,7 +45,7 @@ export function useDashboardData() {
     }
   }, [])
 
-  return useMemo(() => {
+  const visualData = useMemo(() => {
     const expandedSites = expandTransnationalSites(sites)
     const sharedFilter = { ...filter, country: 'all' as const }
     const filteredBaseSites = filterSites(sites, sharedFilter)
@@ -61,20 +61,10 @@ export function useDashboardData() {
     const regionCategoryRows = getRegionCategoryRows(filteredSites)
     const metrics = getMetrics(filteredSites)
 
-    const selectedSite =
-      selection?.type === 'site'
-        ? filteredSites.find((site) => site.id === selection.id) ??
-          expandedSites.find((site) => site.id === selection.id) ??
-          null
-        : null
-
     const selectedCountryName = filter.country !== 'all' ? filter.country : null
-
-    const selectedCountry =
-      selectedCountryName
-        ? countryStats.find((item) => item.country === selectedCountryName) ?? null
-        : null
-
+    const selectedCountry = selectedCountryName
+      ? countryStats.find((item) => item.country === selectedCountryName) ?? null
+      : null
     const selectedCountrySites = selectedCountryName
       ? filteredExpandedSites.filter((site) => site.country === selectedCountryName)
       : []
@@ -88,9 +78,22 @@ export function useDashboardData() {
       regionTreemap,
       regionCategoryRows,
       metrics,
-      selectedSite,
       selectedCountry,
       selectedCountrySites,
     }
-  }, [filter, selection, sites])
+  }, [filter, sites])
+
+  return useMemo(() => {
+    const selectedSite =
+      selection?.type === 'site'
+        ? visualData.filteredSites.find((site) => site.id === selection.id) ??
+          visualData.allSites.find((site) => site.id === selection.id) ??
+          null
+        : null
+
+    return {
+      ...visualData,
+      selectedSite,
+    }
+  }, [selection, visualData])
 }

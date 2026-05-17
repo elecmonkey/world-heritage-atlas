@@ -6,6 +6,9 @@ import { DEFAULT_FILTER, useDashboardStore } from '../../../../app/store/dashboa
 import { cn } from '../../../../lib/utils'
 import { regionOptions } from '../../constants/theme'
 
+const MIN_YEAR = 1978
+const MAX_YEAR = 2025
+
 type FilterPanelProps = {
   countries: string[]
 }
@@ -40,12 +43,12 @@ export function FilterPanel({ countries }: FilterPanelProps) {
         </header>
         <Slider.Root
           value={filter.yearRange}
-          min={1978}
-          max={2024}
+          min={MIN_YEAR}
+          max={MAX_YEAR}
           step={1}
           minStepsBetweenThumbs={1}
           onValueChange={(value) =>
-            setFilter({ yearRange: [value[0] ?? 1978, value[1] ?? 2024] })
+            setFilter({ yearRange: [value[0] ?? MIN_YEAR, value[1] ?? MAX_YEAR] })
           }
           className="relative flex h-8 w-full touch-none select-none items-center"
         >

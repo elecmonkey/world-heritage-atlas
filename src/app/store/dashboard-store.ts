@@ -3,7 +3,7 @@ import { create } from 'zustand'
 import type { FilterState, SelectionState } from '../../features/dashboard/types'
 
 const DEFAULT_FILTER: FilterState = {
-  yearRange: [1978, 2024],
+  yearRange: [1978, 2025],
   categories: ['culture', 'nature', 'mixed'],
   region: 'all',
   country: 'all',

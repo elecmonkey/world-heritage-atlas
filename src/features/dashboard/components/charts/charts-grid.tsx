@@ -32,7 +32,7 @@ export function ChartsGrid({
   return (
     <section className="space-y-4">
       <div className="grid gap-4 xl:grid-cols-2">
-        <ChartCard title="时间趋势">
+        <ChartCard title="时间趋势" subtitle="点击柱形可聚焦单一年份，保留年度入选节奏。">
           <ReactECharts
             option={{
               backgroundColor: 'transparent',
@@ -62,7 +62,7 @@ export function ChartsGrid({
           />
         </ChartCard>
 
-        <ChartCard title="类别占比">
+        <ChartCard title="类别占比" subtitle="展示当前筛选结果的结构占比，可点击类别反向筛选。">
           <ReactECharts
             option={{
               backgroundColor: 'transparent',
@@ -121,12 +121,12 @@ export function ChartsGrid({
       </div>
 
       <div className="grid gap-4 xl:grid-cols-12">
-        <ChartCard title="国家对比分析" className="xl:col-span-5">
+        <ChartCard title="国家对比分析" subtitle="Top 8 国家按文化、自然、混合构成堆叠，避免只看总量。" className="xl:col-span-5">
           <ReactECharts
             option={{
               backgroundColor: 'transparent',
               tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
-              grid: { left: 18, right: 18, top: 20, bottom: 12, containLabel: true },
+              grid: { left: 18, right: 18, top: 40, bottom: 12, containLabel: true },
               xAxis: { type: 'value', ...axisStyle },
               yAxis: {
                 type: 'category',
@@ -135,20 +135,32 @@ export function ChartsGrid({
                 axisLine: { show: false },
                 axisTick: { show: false },
               },
+              legend: {
+                top: 0,
+                right: 0,
+                textStyle: { color: '#CBD5E1', fontSize: 11 },
+              },
               series: [
                 {
+                  name: '文化',
                   type: 'bar',
-                  data: countryStats
-                    .slice(0, 8)
-                    .map((item, index) => ({
-                      value: item.total,
-                      name: item.country,
-                      itemStyle: {
-                        color: index < 3 ? '#C8A96A' : '#2F4A78',
-                      },
-                    }))
-                    .reverse(),
-                  barWidth: 14,
+                  stack: 'total',
+                  data: countryStats.slice(0, 8).map((item) => item.culture).reverse(),
+                  itemStyle: { color: categoryMeta.culture.color },
+                },
+                {
+                  name: '自然',
+                  type: 'bar',
+                  stack: 'total',
+                  data: countryStats.slice(0, 8).map((item) => item.nature).reverse(),
+                  itemStyle: { color: categoryMeta.nature.color },
+                },
+                {
+                  name: '混合',
+                  type: 'bar',
+                  stack: 'total',
+                  data: countryStats.slice(0, 8).map((item) => item.mixed).reverse(),
+                  itemStyle: { color: categoryMeta.mixed.color },
                 },
               ],
             }}
@@ -164,7 +176,7 @@ export function ChartsGrid({
           />
         </ChartCard>
 
-        <ChartCard title="区域类别结构" className="xl:col-span-4">
+        <ChartCard title="区域类别结构" subtitle="比较五大区域的类别构成，帮助识别文化/自然资源差异。" className="xl:col-span-4">
           <ReactECharts
             option={{
               backgroundColor: 'transparent',
@@ -218,7 +230,7 @@ export function ChartsGrid({
           />
         </ChartCard>
 
-        <ChartCard title="联动状态" className="xl:col-span-3">
+        <ChartCard title="联动状态" subtitle="把隐性的筛选条件显性化，降低误读风险。" className="xl:col-span-3">
           <div className="space-y-4 pt-2 text-sm leading-7 text-slate-300">
             <p>
               年份：
@@ -232,7 +244,7 @@ export function ChartsGrid({
           </div>
         </ChartCard>
 
-        <ChartCard title="区域层级" className="xl:col-span-12">
+        <ChartCard title="区域层级" subtitle="Treemap 用面积表达区域-国家层级规模，适合快速发现分布重心。" className="xl:col-span-12">
           <ReactECharts
             option={{
               backgroundColor: 'transparent',
@@ -273,10 +285,12 @@ export function ChartsGrid({
 
 function ChartCard({
   title,
+  subtitle,
   className,
   children,
 }: React.PropsWithChildren<{
   title: string
+  subtitle?: string
   className?: string
 }>) {
   return (
@@ -286,10 +300,13 @@ function ChartCard({
         className,
       ].join(' ')}
     >
-      <header className="mb-2 flex items-end justify-between gap-4">
-        <p className="font-display text-sm uppercase tracking-[0.22em] text-[var(--accent)]">
-          {title}
-        </p>
+      <header className="mb-3 flex items-start justify-between gap-4">
+        <div>
+          <p className="font-display text-sm uppercase tracking-[0.22em] text-[var(--accent)]">
+            {title}
+          </p>
+          {subtitle ? <p className="mt-1 text-xs text-slate-500">{subtitle}</p> : null}
+        </div>
       </header>
       {children}
     </article>
