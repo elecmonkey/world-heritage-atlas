@@ -9,7 +9,9 @@
     "build": "rsbuild build",
     "lint": "rslint --type-check",
     "preview": "rsbuild preview",
-    "slide": "pnpm --dir slide dev"
+    "slide": "pnpm --dir slide dev",
+    "deploy:web": "pnpm build && wrangler pages deploy dist --project-name wha-web",
+    "deploy:slide": "pnpm --dir slide build && wrangler pages deploy slide/dist --project-name wha-slide"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",
@@ -42,6 +44,7 @@
     "@types/react-dom": "^19.2.3",
     "babel-plugin-react-compiler": "^1.0.0",
     "tailwindcss": "^4.2.2",
-    "typescript": "~6.0.3"
+    "typescript": "~6.0.3",
+    "wrangler": "^4.92.0"
   }
 }

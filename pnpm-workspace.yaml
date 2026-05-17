@@ -1,3 +1,7 @@
 packages:
   - .
   - slide
+allowBuilds:
+  esbuild: true
+  sharp: true
+  workerd: true
