@@ -410,9 +410,16 @@ layout: full
 </div>
 
 ---
-layout: iframe
-url: https://wha-web.edev.uno/
+layout: full
 ---
+
+<div class="relative h-full w-full overflow-hidden bg-[#0b0f1a] text-slate-100">
+  <iframe
+    src="https://wha-web.edev.uno/"
+    class="absolute left-0 top-0 h-[133%] w-[133%] origin-top-left scale-75 border-0 bg-[#0b0f1a]"
+    allow="fullscreen"
+  ></iframe>
+</div>
  
 ---
 layout: full
