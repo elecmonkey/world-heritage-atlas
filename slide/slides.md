@@ -40,11 +40,12 @@ layout: full
   <div class="relative z-10 flex h-full flex-col justify-center">
     <p class="text-xs font-bold uppercase tracking-[0.24em] text-[#c8a96a]">Agenda</p>
     <h1 class="mt-4 font-serif text-[52px] font-bold tracking-[-0.04em]">汇报结构</h1>
-    <div class="mt-10 grid grid-cols-4 gap-5">
-      <div class="min-h-[330px] rounded-[28px] border border-[#c8a96a]/35 bg-[#111827]/80 p-7 shadow-2xl backdrop-blur-xl"><span class="font-serif text-6xl text-[#c8a96a]">01</span><h2 class="mt-16 font-serif text-3xl text-white">研究背景</h2><p class="mt-4 leading-8 text-slate-300">为什么世界遗产适合做时空可视化，以及目标用户真正需要什么。</p></div>
-      <div class="min-h-[330px] rounded-[28px] border border-white/10 bg-[#111827]/80 p-7 shadow-2xl backdrop-blur-xl"><span class="font-serif text-6xl text-[#c8a96a]">02</span><h2 class="mt-16 font-serif text-3xl text-white">相关数据</h2><p class="mt-4 leading-8 text-slate-300">UNESCO 名录字段、清洗结构、统计表与可视化映射。</p></div>
-      <div class="min-h-[330px] rounded-[28px] border border-white/10 bg-[#111827]/80 p-7 shadow-2xl backdrop-blur-xl"><span class="font-serif text-6xl text-[#c8a96a]">03</span><h2 class="mt-16 font-serif text-3xl text-white">UI 设计</h2><p class="mt-4 leading-8 text-slate-300">地图优先仪表盘、统一视觉语言、筛选联动与详情侧栏。</p></div>
-      <div class="min-h-[330px] rounded-[28px] border border-white/10 bg-[#111827]/80 p-7 shadow-2xl backdrop-blur-xl"><span class="font-serif text-6xl text-[#c8a96a]">04</span><h2 class="mt-16 font-serif text-3xl text-white">系统架构</h2><p class="mt-4 leading-8 text-slate-300">数据模型、可视化模块、交互联动与体验优化。</p></div>
+    <div class="mt-10 grid grid-cols-5 gap-4">
+      <div class="min-h-[330px] rounded-[28px] border border-[#c8a96a]/35 bg-[#111827]/80 p-6 shadow-2xl backdrop-blur-xl"><span class="font-serif text-5xl text-[#c8a96a]">01</span><h2 class="mt-16 font-serif text-[26px] text-white">用户与需求</h2><p class="mt-4 leading-7 text-slate-300">目标用户、使用场景与世界遗产数据的认知问题。</p></div>
+      <div class="min-h-[330px] rounded-[28px] border border-white/10 bg-[#111827]/80 p-6 shadow-2xl backdrop-blur-xl"><span class="font-serif text-5xl text-[#c8a96a]">02</span><h2 class="mt-16 font-serif text-[26px] text-white">数据与映射</h2><p class="mt-4 leading-7 text-slate-300">UNESCO 名录字段、清洗结构、统计表与可视化映射。</p></div>
+      <div class="min-h-[330px] rounded-[28px] border border-white/10 bg-[#111827]/80 p-6 shadow-2xl backdrop-blur-xl"><span class="font-serif text-5xl text-[#c8a96a]">03</span><h2 class="mt-16 font-serif text-[26px] text-white">系统设计</h2><p class="mt-4 leading-7 text-slate-300">地图优先仪表盘、统一视觉语言、筛选联动与详情侧栏。</p></div>
+      <div class="min-h-[330px] rounded-[28px] border border-white/10 bg-[#111827]/80 p-6 shadow-2xl backdrop-blur-xl"><span class="font-serif text-5xl text-[#c8a96a]">04</span><h2 class="mt-16 font-serif text-[26px] text-white">演示与实现</h2><p class="mt-4 leading-7 text-slate-300">直接运行当前产品，并说明已经完成的核心能力。</p></div>
+      <div class="min-h-[330px] rounded-[28px] border border-white/10 bg-[#111827]/80 p-6 shadow-2xl backdrop-blur-xl"><span class="font-serif text-5xl text-[#c8a96a]">05</span><h2 class="mt-16 font-serif text-[26px] text-white">评估与总结</h2><p class="mt-4 leading-7 text-slate-300">用任务完成度、认知效率和体验稳定性验证设计。</p></div>
     </div>
   </div>
 </div>
@@ -405,8 +406,13 @@ layout: full
 
 <div class="relative flex h-full w-full items-center justify-center overflow-hidden bg-[#0b0f1a] px-16 py-14 text-slate-100">
   <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(200,169,106,.17),transparent_34%),linear-gradient(rgba(255,255,255,.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.03)_1px,transparent_1px)] bg-[length:auto,42px_42px,42px_42px]"></div>
-  <div class="relative z-10 text-center"><p class="text-xs font-bold uppercase tracking-[0.3em] text-[#c8a96a]">Part 04</p><h1 class="mt-6 font-serif text-[78px] font-black tracking-[-0.06em]">系统架构</h1><p class="mt-6 text-xl text-slate-300">以清晰的数据流支撑地图、图表、筛选与详情体验</p></div>
+  <div class="relative z-10 text-center"><p class="text-xs font-bold uppercase tracking-[0.3em] text-[#c8a96a]">Part 04</p><h1 class="mt-6 font-serif text-[78px] font-black tracking-[-0.06em]">演示与实现</h1><p class="mt-6 text-xl text-slate-300">以清晰的数据流支撑地图、图表、筛选、详情和现场运行</p></div>
 </div>
+
+---
+layout: iframe
+url: https://wha-web.edev.uno/
+---
  
 ---
 layout: full
@@ -422,6 +428,34 @@ layout: full
 ---
 
 <div class="relative h-full w-full overflow-hidden bg-[#0b0f1a] px-16 py-12 text-slate-100">
+  <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_16%_18%,rgba(200,169,106,.15),transparent_28%),radial-gradient(circle_at_82%_78%,rgba(56,189,248,.11),transparent_26%),linear-gradient(rgba(255,255,255,.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.03)_1px,transparent_1px)] bg-[length:auto,auto,42px_42px,42px_42px]"></div>
+  <div class="relative z-10">
+    <p class="text-xs font-bold uppercase tracking-[0.24em] text-[#c8a96a]">Implementation</p>
+    <h1 class="mt-3 max-w-[1080px] font-serif text-[44px] font-bold leading-tight tracking-[-0.04em]">实现成果：从官方名录到可探索、可比较、可讲述的产品</h1>
+    <div class="mt-8 grid grid-cols-[.9fr_1.1fr] gap-6">
+      <div class="rounded-[28px] border border-[#c8a96a]/30 bg-[#111827]/80 p-7 shadow-2xl backdrop-blur-xl">
+        <h2 class="font-serif text-3xl text-white">已完成的核心能力</h2>
+        <div class="mt-6 space-y-3 text-slate-300">
+          <div class="rounded-2xl bg-white/[0.05] p-4">整理 1081 条世界遗产数据，覆盖国家、区域、类别、年份、坐标与简介。</div>
+          <div class="rounded-2xl bg-white/[0.05] p-4">提供全球地图总览、点位聚类、筛选聚焦与单点详情浏览。</div>
+          <div class="rounded-2xl bg-white/[0.05] p-4">完成时间趋势、类别占比、国家排名、区域层级等统计视图。</div>
+          <div class="rounded-2xl bg-white/[0.05] p-4">统一筛选条件，让地图、图表、KPI 与详情面板同步表达同一组数据。</div>
+        </div>
+      </div>
+      <div class="grid grid-cols-2 gap-4">
+        <div class="rounded-[24px] border border-white/10 bg-[#111827]/80 p-6 shadow-2xl"><span class="text-xs font-bold uppercase tracking-[0.2em] text-[#c8a96a]">Browse</span><h2 class="mt-14 font-serif text-2xl text-white">浏览全球格局</h2><p class="mt-4 leading-7 text-slate-300">先看分布密度，再逐级进入区域、国家和单个遗产。</p></div>
+        <div class="rounded-[24px] border border-white/10 bg-[#111827]/80 p-6 shadow-2xl"><span class="text-xs font-bold uppercase tracking-[0.2em] text-[#c8a96a]">Filter</span><h2 class="mt-14 font-serif text-2xl text-white">筛选问题范围</h2><p class="mt-4 leading-7 text-slate-300">用时间、类别、区域、国家和关键词缩小观察范围。</p></div>
+        <div class="rounded-[24px] border border-white/10 bg-[#111827]/80 p-6 shadow-2xl"><span class="text-xs font-bold uppercase tracking-[0.2em] text-[#c8a96a]">Compare</span><h2 class="mt-14 font-serif text-2xl text-white">比较结构差异</h2><p class="mt-4 leading-7 text-slate-300">从国家排名和类别构成中识别集中、差异与异常。</p></div>
+        <div class="rounded-[24px] border border-white/10 bg-[#111827]/80 p-6 shadow-2xl"><span class="text-xs font-bold uppercase tracking-[0.2em] text-[#c8a96a]">Explain</span><h2 class="mt-14 font-serif text-2xl text-white">补充遗产证据</h2><p class="mt-4 leading-7 text-slate-300">通过详情侧栏解释“这是什么、在哪里、何时入选”。</p></div>
+      </div>
+    </div>
+  </div>
+</div>
+---
+layout: full
+---
+
+<div class="relative h-full w-full overflow-hidden bg-[#0b0f1a] px-16 py-12 text-slate-100">
   <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_80%_18%,rgba(56,189,248,.12),transparent_28%),linear-gradient(rgba(255,255,255,.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.03)_1px,transparent_1px)] bg-[length:auto,42px_42px,42px_42px]"></div>
   <div class="relative z-10"><p class="text-xs font-bold uppercase tracking-[0.24em] text-[#c8a96a]">Rendering & Performance</p><h1 class="mt-3 max-w-[1060px] font-serif text-[44px] font-bold leading-tight tracking-[-0.04em]">性能策略：先保证地图交互稳定，再提高统计计算与渲染效率</h1><div class="mt-8 grid grid-cols-[1fr_1fr] gap-6"><div class="rounded-[28px] border border-white/10 bg-[#111827]/80 p-7 shadow-2xl backdrop-blur-xl"><h2 class="font-serif text-3xl text-white">当前体验策略</h2><div class="mt-6 space-y-4 text-slate-300"><div class="rounded-2xl bg-white/[0.05] p-4">地图聚类承载 1081 个点位，先呈现全局密度，再支持逐级放大探索。</div><div class="rounded-2xl bg-white/[0.05] p-4">统计结果按筛选条件复用，打开详情不触发全量地图与图表刷新。</div><div class="rounded-2xl bg-white/[0.05] p-4">统计图表承担趋势、占比、排名和区域层级表达。</div></div></div><div class="rounded-[28px] border border-[#c8a96a]/30 bg-[#111827]/80 p-7 shadow-2xl backdrop-blur-xl"><h2 class="font-serif text-3xl text-white">后续体验优化</h2><div class="mt-6 space-y-4 text-slate-300"><div class="rounded-2xl bg-white/[0.05] p-4">搜索输入节流处理，避免每个字符都刷新地图。</div><div class="rounded-2xl bg-white/[0.05] p-4">对国家边界与聚合结果进行静态预计算。</div><div class="rounded-2xl bg-white/[0.05] p-4">大屏场景采用更高性能的点位渲染方案。</div></div></div></div></div>
 </div>
@@ -431,7 +465,88 @@ layout: full
 layout: full
 ---
 
+<div class="relative h-full w-full overflow-hidden bg-[#0b0f1a] px-16 py-12 text-slate-100">
+  <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_80%_16%,rgba(56,189,248,.12),transparent_28%),linear-gradient(rgba(255,255,255,.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.03)_1px,transparent_1px)] bg-[length:auto,42px_42px,42px_42px]"></div>
+  <div class="relative z-10">
+    <p class="text-xs font-bold uppercase tracking-[0.24em] text-[#c8a96a]">Evaluation</p>
+    <h1 class="mt-3 max-w-[1080px] font-serif text-[44px] font-bold leading-tight tracking-[-0.04em]">评估方法：用任务完成度验证可视化是否真的帮助理解</h1>
+    <div class="mt-8 grid grid-cols-5 gap-4">
+      <div class="rounded-[24px] border border-white/10 bg-[#111827]/80 p-5 shadow-2xl"><span class="text-xs font-bold uppercase tracking-[0.18em] text-[#c8a96a]">Task 01</span><h2 class="mt-10 font-serif text-2xl text-white">空间理解</h2><p class="mt-4 leading-7 text-slate-300">找出世界遗产最集中的区域。</p><p class="mt-5 text-sm text-slate-500">指标：判断是否准确、是否能说明依据。</p></div>
+      <div class="rounded-[24px] border border-white/10 bg-[#111827]/80 p-5 shadow-2xl"><span class="text-xs font-bold uppercase tracking-[0.18em] text-[#c8a96a]">Task 02</span><h2 class="mt-10 font-serif text-2xl text-white">类型比较</h2><p class="mt-4 leading-7 text-slate-300">比较文化、自然、混合遗产占比。</p><p class="mt-5 text-sm text-slate-500">指标：能否读懂颜色编码与占比。</p></div>
+      <div class="rounded-[24px] border border-white/10 bg-[#111827]/80 p-5 shadow-2xl"><span class="text-xs font-bold uppercase tracking-[0.18em] text-[#c8a96a]">Task 03</span><h2 class="mt-10 font-serif text-2xl text-white">国家对比</h2><p class="mt-4 leading-7 text-slate-300">找出头部国家并比较类别结构。</p><p class="mt-5 text-sm text-slate-500">指标：是否能从排名进入比较。</p></div>
+      <div class="rounded-[24px] border border-white/10 bg-[#111827]/80 p-5 shadow-2xl"><span class="text-xs font-bold uppercase tracking-[0.18em] text-[#c8a96a]">Task 04</span><h2 class="mt-10 font-serif text-2xl text-white">详情阅读</h2><p class="mt-4 leading-7 text-slate-300">打开一个遗产详情并继续探索。</p><p class="mt-5 text-sm text-slate-500">指标：地图视角是否保持稳定。</p></div>
+      <div class="rounded-[24px] border border-white/10 bg-[#111827]/80 p-5 shadow-2xl"><span class="text-xs font-bold uppercase tracking-[0.18em] text-[#c8a96a]">Task 05</span><h2 class="mt-10 font-serif text-2xl text-white">交互效率</h2><p class="mt-4 leading-7 text-slate-300">连续调整筛选条件观察变化。</p><p class="mt-5 text-sm text-slate-500">指标：是否出现迷失、重复操作或误解。</p></div>
+    </div>
+    <div class="mt-7 rounded-[24px] border border-[#c8a96a]/30 bg-[#c8a96a]/10 p-5 text-center text-slate-200">评估重点不是“页面是否好看”，而是用户能否更快、更准确地完成空间、时间和类别判断。</div>
+  </div>
+</div>
+---
+layout: full
+---
+
+<div class="relative h-full w-full overflow-hidden bg-[#0b0f1a] px-16 py-12 text-slate-100">
+  <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_14%_82%,rgba(200,169,106,.14),transparent_28%),radial-gradient(circle_at_82%_18%,rgba(56,189,248,.1),transparent_26%),linear-gradient(rgba(255,255,255,.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.03)_1px,transparent_1px)] bg-[length:auto,auto,42px_42px,42px_42px]"></div>
+  <div class="relative z-10">
+    <p class="text-xs font-bold uppercase tracking-[0.24em] text-[#c8a96a]">Evaluation Findings</p>
+    <h1 class="mt-3 max-w-[1080px] font-serif text-[44px] font-bold leading-tight tracking-[-0.04em]">初步评估：当前设计已能支持主要认知任务，但仍需继续验证</h1>
+    <div class="mt-8 grid grid-cols-[1fr_1fr] gap-6">
+      <div class="rounded-[28px] border border-emerald-400/25 bg-[#111827]/80 p-7 shadow-2xl backdrop-blur-xl">
+        <h2 class="font-serif text-3xl text-white">有效之处</h2>
+        <div class="mt-6 space-y-4 text-slate-300">
+          <div class="rounded-2xl bg-white/[0.05] p-4">地图总览能快速建立“哪里更集中”的第一印象。</div>
+          <div class="rounded-2xl bg-white/[0.05] p-4">固定类别颜色降低了跨图表比较成本。</div>
+          <div class="rounded-2xl bg-white/[0.05] p-4">国家排名、趋势和占比图帮助用户从观察进入解释。</div>
+          <div class="rounded-2xl bg-white/[0.05] p-4">详情侧栏比页面跳转更适合保持探索连续性。</div>
+        </div>
+      </div>
+      <div class="rounded-[28px] border border-[#c8a96a]/30 bg-[#111827]/80 p-7 shadow-2xl backdrop-blur-xl">
+        <h2 class="font-serif text-3xl text-white">发现与改进</h2>
+        <div class="mt-6 space-y-4 text-slate-300">
+          <div class="rounded-2xl bg-white/[0.05] p-4">打开详情导致地图刷新是高优先级体验问题，已改为保留当前视角与筛选上下文。</div>
+          <div class="rounded-2xl bg-white/[0.05] p-4">搜索和连续筛选需要控制刷新频率，避免用户感觉界面跳动。</div>
+          <div class="rounded-2xl bg-white/[0.05] p-4">后续需要补充真实用户测试，记录任务时间、理解准确率和主观满意度。</div>
+          <div class="rounded-2xl bg-white/[0.05] p-4">面向课堂和展陈场景，可继续增强讲解路径与截图友好性。</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+---
+layout: full
+---
+
 <div class="relative flex h-full w-full items-center justify-center overflow-hidden bg-[#0b0f1a] px-16 py-14 text-center text-slate-100">
   <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(200,169,106,.16),transparent_34%),linear-gradient(rgba(255,255,255,.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.03)_1px,transparent_1px)] bg-[length:auto,42px_42px,42px_42px]"></div>
   <div class="relative z-10 max-w-[980px]"><p class="text-xs font-bold uppercase tracking-[0.24em] text-[#c8a96a]">Conclusion</p><h1 class="mt-5 font-serif text-5xl font-bold leading-tight tracking-[-0.035em]">一个好的世界遗产数据产品，核心不是图表数量，而是让用户更快形成可靠判断。</h1><div class="mt-10 flex flex-wrap justify-center gap-3"><span class="rounded-full border border-white/10 bg-white/[0.05] px-5 py-3 text-slate-300">空间上下文稳定</span><span class="rounded-full border border-white/10 bg-white/[0.05] px-5 py-3 text-slate-300">视觉编码一致</span><span class="rounded-full border border-white/10 bg-white/[0.05] px-5 py-3 text-slate-300">比较方式正确</span><span class="rounded-full border border-white/10 bg-white/[0.05] px-5 py-3 text-slate-300">洞察路径清晰</span></div><p class="mt-12 text-xl text-[#c8a96a]">谢谢</p></div>
+</div>
+
+---
+layout: full
+---
+
+<div class="relative h-full w-full overflow-hidden bg-[#0b0f1a] px-16 py-12 text-slate-100">
+  <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_16%_18%,rgba(200,169,106,.15),transparent_28%),radial-gradient(circle_at_82%_78%,rgba(56,189,248,.11),transparent_26%),linear-gradient(rgba(255,255,255,.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.03)_1px,transparent_1px)] bg-[length:auto,auto,42px_42px,42px_42px]"></div>
+  <div class="relative z-10 flex h-full flex-col justify-center">
+    <p class="text-xs font-bold uppercase tracking-[0.24em] text-[#c8a96a]">Appropriate AI-generated Content</p>
+    <h1 class="mt-4 max-w-[1080px] font-serif text-[48px] font-bold leading-tight tracking-[-0.04em]">AI Usage Declaration</h1>
+    <div class="mt-9 grid grid-cols-[.95fr_1.05fr] gap-6">
+      <div class="rounded-[28px] border border-[#c8a96a]/30 bg-[#111827]/80 p-8 shadow-2xl backdrop-blur-xl">
+        <h2 class="font-serif text-3xl text-white">AI 辅助范围</h2>
+        <div class="mt-6 space-y-4 text-slate-300">
+          <div class="rounded-2xl bg-white/[0.05] p-4">辅助梳理用户需求、产品叙事、评估维度与汇报结构。</div>
+          <div class="rounded-2xl bg-white/[0.05] p-4">辅助完成界面文案、可视化表达方案和展示材料排版。</div>
+          <div class="rounded-2xl bg-white/[0.05] p-4">辅助进行软件工程任务：代码生成、重构建议、构建配置与问题排查。</div>
+        </div>
+      </div>
+      <div class="rounded-[28px] border border-white/10 bg-[#111827]/80 p-8 shadow-2xl backdrop-blur-xl">
+        <h2 class="font-serif text-3xl text-white">人工负责与最终判断</h2>
+        <div class="mt-6 space-y-4 text-slate-300">
+          <div class="rounded-2xl bg-white/[0.05] p-4">项目主题、数据选择、产品目标、交互取舍与最终内容由团队确认。</div>
+          <div class="rounded-2xl bg-white/[0.05] p-4">所有 AI 辅助生成内容均经过人工审阅、修改和整合，以匹配实际产品。</div>
+          <div class="rounded-2xl bg-white/[0.05] p-4">AI 未替代对系统设计、数据解释、评估结论和课堂汇报责任的人工判断。</div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-8 rounded-[24px] border border-[#c8a96a]/30 bg-[#c8a96a]/10 p-5 text-center text-slate-200">本项目采用 AI-assisted software engineering workflow；AI 作为协作工具参与实现与表达，最终成果由团队负责。</div>
+  </div>
 </div>
