@@ -1,6 +1,7 @@
 packages:
   - .
   - slide
+  - running
 allowBuilds:
   esbuild: true
   sharp: true

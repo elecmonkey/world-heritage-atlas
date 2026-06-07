@@ -1,0 +1,16 @@
+{
+  "name": "@world-heritage-atlas/running",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "record": "node src/record-tour.mjs",
+    "make-video": "node src/record-tour.mjs --render-video",
+    "open-script": "node scripts/print-script.mjs"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "chrome-remote-interface": "^0.33.3"
+  },
+  "devDependencies": {}
+}

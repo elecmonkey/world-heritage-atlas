@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 .agent
 .agents
+
+# Generated exports
+slide/slides-export.pdf

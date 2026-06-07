@@ -1,13 +1,39 @@
 import { BarChart3, Globe2, Landmark, MapPinned, Sparkles } from 'lucide-react'
-import { useMemo } from 'react'
+import { useEffect, useMemo } from 'react'
 
 import { DetailDrawer } from './detail-drawer/detail-drawer'
 import { FilterPanel } from './filters/filter-panel'
+import { useDashboardStore } from '../../../app/store/dashboard-store'
 import { useDashboardData } from '../hooks/use-dashboard-data'
 import { MapPanel } from './map/map-panel'
 import { ChartsGrid } from './charts/charts-grid'
+import type { FilterState } from '../types'
+
+declare global {
+  interface Window {
+    __WHA_TOUR__?: {
+      reset: () => void
+      setFilter: (patch: Partial<FilterState>) => void
+      focusCountry: (country: string) => void
+      focusRegion: (region: string) => void
+      focusCategory: (category: FilterState['categories'][number]) => void
+      closeDetail: () => void
+      selectSiteByName: (keyword: string) => boolean
+      selectFirstVisibleSite: () => boolean
+      getSnapshot: () => {
+        total: number
+        visible: number
+        countries: number
+        topCountry: string | null
+      }
+    }
+  }
+}
 
 export function DashboardPage() {
+  const setFilter = useDashboardStore((state) => state.setFilter)
+  const resetFilter = useDashboardStore((state) => state.resetFilter)
+  const setSelection = useDashboardStore((state) => state.setSelection)
   const {
     allSites,
     filteredSites,
@@ -23,9 +49,65 @@ export function DashboardPage() {
   } = useDashboardData()
 
   const countries = useMemo(
-    () => Array.from(new Set(allSites.map((site) => site.country))).sort(),
+    () => Array.from(new globalThis.Set(allSites.map((site) => site.country))).sort(),
     [allSites],
   )
+
+  useEffect(() => {
+    window.__WHA_TOUR__ = {
+      reset: resetFilter,
+      setFilter,
+      focusCountry: (country) => {
+        setFilter({ country })
+        setSelection(null)
+      },
+      focusRegion: (region) => {
+        setFilter({ region })
+        setSelection(null)
+      },
+      focusCategory: (category) => {
+        setFilter({ categories: [category] })
+        setSelection(null)
+      },
+      closeDetail: () => setSelection(null),
+      selectSiteByName: (keyword) => {
+        const normalized = keyword.trim().toLowerCase()
+        const site = filteredSites.find((item) =>
+          [item.name, item.englishName, item.country, item.region]
+            .filter(Boolean)
+            .join(' ')
+            .toLowerCase()
+            .includes(normalized),
+        )
+
+        if (!site) {
+          return false
+        }
+
+        setSelection({ type: 'site', id: site.id })
+        return true
+      },
+      selectFirstVisibleSite: () => {
+        const site = filteredSites[0]
+        if (!site) {
+          return false
+        }
+
+        setSelection({ type: 'site', id: site.id })
+        return true
+      },
+      getSnapshot: () => ({
+        total: allSites.length,
+        visible: filteredSites.length,
+        countries: countries.length,
+        topCountry: countryStats[0]?.country ?? null,
+      }),
+    }
+
+    return () => {
+      delete window.__WHA_TOUR__
+    }
+  }, [allSites, countries.length, countryStats, filteredSites, resetFilter, setFilter, setSelection])
 
   return (
     <main className="min-h-screen bg-[var(--bg)] text-[var(--text-main)]">
@@ -79,7 +161,10 @@ export function DashboardPage() {
           ))}
         </section>
 
-        <section className="grid gap-4 xl:min-h-[68vh] xl:grid-cols-[320px_minmax(0,1fr)] xl:items-stretch">
+        <section
+          data-tour="atlas"
+          className="grid gap-4 xl:min-h-[68vh] xl:grid-cols-[320px_minmax(0,1fr)] xl:items-stretch"
+        >
           <FilterPanel countries={countries} />
           <MapPanel
             sites={filteredSites}
@@ -89,13 +174,15 @@ export function DashboardPage() {
           />
         </section>
 
-        <ChartsGrid
-          trendSeries={trendSeries}
-          categoryDistribution={categoryDistribution}
-          countryStats={countryStats}
-          regionTreemap={regionTreemap}
-          regionCategoryRows={regionCategoryRows}
-        />
+        <section data-tour="analytics">
+          <ChartsGrid
+            trendSeries={trendSeries}
+            categoryDistribution={categoryDistribution}
+            countryStats={countryStats}
+            regionTreemap={regionTreemap}
+            regionCategoryRows={regionCategoryRows}
+          />
+        </section>
       </div>
 
       <DetailDrawer selectedSite={selectedSite} />

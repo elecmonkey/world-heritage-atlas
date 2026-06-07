@@ -11,6 +11,7 @@
   "devDependencies": {
     "@slidev/cli": "latest",
     "@slidev/theme-default": "latest",
+    "playwright-chromium": "^1.60.0",
     "vue": "latest"
   }
 }
